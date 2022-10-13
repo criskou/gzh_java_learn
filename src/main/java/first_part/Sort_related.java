@@ -38,9 +38,10 @@ public class Sort_related {
         System.out.println("lambda："+Arrays.toString(arr4));
 
         //次要问题二：关于面试题的区间排序，其实是有API的
+        //同样的可以传入比较器控制升序还是降序
         Integer[] arr5={1,4,3,6,7,9,11};
         Arrays.sort(arr5,2,5);
-        System.out.println("区间排序："+Arrays.toString(arr2));
+        System.out.println("区间排序："+Arrays.toString(arr5));
 
         //次要问题三：排序写废了，复习一下
     }
